@@ -1,0 +1,32 @@
+#game p,
+li,
+a {
+	text-align: left;
+	color: white;
+	list-style-type: square;
+}
+
+li:first-child {
+	list-style-type: none;
+	font-weight: 600;
+}
+
+h1 {
+	margin: 0;
+	padding: 20px 0 10px 0;
+}
+
+#game-info-field {
+	margin: 0 0 10px 0;
+	padding: 10px 40px 30px;
+	background-color: rgb(11, 37, 69);
+}
+
+#game-start-button {
+	margin: 0;
+	padding: 10px 16px;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: rgb(20, 127, 230);
+}

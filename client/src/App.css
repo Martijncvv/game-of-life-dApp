@@ -1,0 +1,128 @@
+h2 {
+	margin: 40px 0 6px;
+}
+h3 {
+	margin-top: 30px;
+}
+
+.App {
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	overflow-x: hidden;
+}
+#account-info-field {
+	height: 260px;
+}
+
+#game-setup-options {
+	width: 360px;
+	padding: 0 20px;
+	background-color: rgb(11, 37, 69);
+}
+
+.connectButton {
+	cursor: pointer;
+	margin-top: 16px;
+	padding: 10px 16px;
+	border: 0;
+	border-radius: 5px;
+	background-color: rgb(20, 127, 230);
+}
+
+.game-button {
+	background-color: rgb(20, 127, 230);
+	cursor: pointer;
+	margin-top: 16px;
+	padding: 10px 16px;
+	border: 0;
+	border-radius: 5px;
+}
+
+.like-setup {
+	margin-left: 20px;
+}
+
+#user-setups {
+	overflow-y: scroll;
+	max-height: 900px;
+	width: 380px;
+	color: black;
+}
+.setup-option-box {
+	background: rgb(255, 255, 255);
+	margin: 12px 12px;
+	padding: 6px 8px 20px;
+	border-radius: 8px;
+}
+.setup-user-name {
+	padding: 0 4%;
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.setup-id {
+	font-weight: 600;
+}
+.setup-info-message {
+	max-height: 180px;
+	margin: 4px;
+	padding-left: 5px;
+	text-align: left;
+
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	overflow-y: scroll;
+}
+
+.setup-info-field {
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 10px;
+}
+.setup-info-attribute {
+	width: 180px;
+	margin: 4px;
+	padding: 0;
+	font-weight: 500;
+	text-align: left;
+}
+.setup-info-value {
+	max-height: 90px;
+	margin: 4px;
+	padding-left: 5px;
+
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#submit-setup-field {
+	width: 380px;
+}
+
+#submit-setup-input-field {
+	background: rgb(241, 244, 243);
+	min-height: 160px;
+	margin: 12px 12px;
+	padding: 12px;
+	border-radius: 8px;
+	color: black;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px rgba(255, 255, 255, 0);
+}
+::-webkit-scrollbar-thumb {
+	background: rgb(20, 127, 230);
+	border-radius: 2px;
+}
