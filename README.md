@@ -1,6 +1,6 @@
 # Conway's Game of Life dApp
 
-An escalated project to practice Solidity smartcontract interaction.
+A game project to practice Solidity smartcontract programming.
 
 [Game of Life dApp website](https://conways-dgame-of-life.netlify.app/)
 
